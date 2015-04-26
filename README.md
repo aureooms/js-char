@@ -15,6 +15,8 @@ character code bricks for JavaScript
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-char.svg?style=flat)](https://github.com/aureooms/js-char/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-char.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-char)
 
+## Installation
+
 Can be managed through [duo](https://github.com/duojs/duo),
 [component](https://github.com/componentjs/component),
 [bower](https://github.com/bower/bower), or
@@ -22,4 +24,20 @@ Can be managed through [duo](https://github.com/duojs/duo),
 
 ```js
 let char = require( "aureooms-js-char" ) ;
+```
+
+## Usage
+
+```js
+char.chr( 97 ) ; // "a"
+char.ord( "\n" ) ; // 10
+
+char.ord( "M" ) ; // 77
+char.ord( "Μ" ) ; // 924
+
+char.islower( "µ" ) ; // true
+char.isupper( "À" ) ; // true
+
+char.upper( "µ" ) ; // Μ
+char.lower( "À" ) ; // à
 ```

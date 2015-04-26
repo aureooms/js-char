@@ -1,0 +1,103 @@
+
+test( "islower" , function ( ) {
+
+	ok( char.islower( 'a' ) ) ;
+	ok( char.islower( 'b' ) ) ;
+	ok( char.islower( 'c' ) ) ;
+	ok( char.islower( 'd' ) ) ;
+	ok( char.islower( 'e' ) ) ;
+	ok( char.islower( 'f' ) ) ;
+	ok( char.islower( 'g' ) ) ;
+	ok( char.islower( 'h' ) ) ;
+	ok( char.islower( 'i' ) ) ;
+	ok( char.islower( 'j' ) ) ;
+	ok( char.islower( 'k' ) ) ;
+	ok( char.islower( 'l' ) ) ;
+	ok( char.islower( 'm' ) ) ;
+	ok( char.islower( 'n' ) ) ;
+	ok( char.islower( 'o' ) ) ;
+	ok( char.islower( 'p' ) ) ;
+	ok( char.islower( 'q' ) ) ;
+	ok( char.islower( 'r' ) ) ;
+	ok( char.islower( 's' ) ) ;
+	ok( char.islower( 't' ) ) ;
+	ok( char.islower( 'u' ) ) ;
+	ok( char.islower( 'v' ) ) ;
+	ok( char.islower( 'w' ) ) ;
+	ok( char.islower( 'x' ) ) ;
+	ok( char.islower( 'y' ) ) ;
+	ok( char.islower( 'z' ) ) ;
+
+	ok( !char.islower( 'A' ) ) ;
+	ok( !char.islower( 'B' ) ) ;
+	ok( !char.islower( 'C' ) ) ;
+	ok( !char.islower( 'D' ) ) ;
+	ok( !char.islower( 'E' ) ) ;
+	ok( !char.islower( 'F' ) ) ;
+	ok( !char.islower( 'G' ) ) ;
+	ok( !char.islower( 'H' ) ) ;
+	ok( !char.islower( 'I' ) ) ;
+	ok( !char.islower( 'J' ) ) ;
+	ok( !char.islower( 'K' ) ) ;
+	ok( !char.islower( 'L' ) ) ;
+	ok( !char.islower( 'M' ) ) ;
+	ok( !char.islower( 'N' ) ) ;
+	ok( !char.islower( 'O' ) ) ;
+	ok( !char.islower( 'P' ) ) ;
+	ok( !char.islower( 'Q' ) ) ;
+	ok( !char.islower( 'R' ) ) ;
+	ok( !char.islower( 'S' ) ) ;
+	ok( !char.islower( 'T' ) ) ;
+	ok( !char.islower( 'U' ) ) ;
+	ok( !char.islower( 'V' ) ) ;
+	ok( !char.islower( 'W' ) ) ;
+	ok( !char.islower( 'X' ) ) ;
+	ok( !char.islower( 'Y' ) ) ;
+	ok( !char.islower( 'Z' ) ) ;
+
+	ok( !char.islower( '0' ) ) ;
+	ok( !char.islower( '1' ) ) ;
+	ok( !char.islower( '2' ) ) ;
+	ok( !char.islower( '3' ) ) ;
+	ok( !char.islower( '4' ) ) ;
+	ok( !char.islower( '5' ) ) ;
+	ok( !char.islower( '6' ) ) ;
+	ok( !char.islower( '7' ) ) ;
+	ok( !char.islower( '8' ) ) ;
+	ok( !char.islower( '9' ) ) ;
+
+	ok( char.islower( 'µ' ) ) ;
+	ok( char.islower( 'ù' ) ) ;
+	ok( char.islower( 'à' ) ) ;
+	ok( char.islower( 'é' ) ) ;
+
+	ok( !char.islower( 'Μ' ) ) ;
+	ok( !char.islower( 'Ù' ) ) ;
+	ok( !char.islower( 'À' ) ) ;
+	ok( !char.islower( 'É' ) ) ;
+
+	ok( !char.islower( '\n' ) ) ;
+	ok( !char.islower( ',' ) ) ;
+	ok( !char.islower( ':' ) ) ;
+	ok( !char.islower( ';' ) ) ;
+	ok( !char.islower( '.' ) ) ;
+	ok( !char.islower( '=' ) ) ;
+	ok( !char.islower( '+' ) ) ;
+	ok( !char.islower( '~' ) ) ;
+	ok( !char.islower( '£' ) ) ;
+	ok( !char.islower( '?' ) ) ;
+	ok( !char.islower( '/' ) ) ;
+	ok( !char.islower( '%' ) ) ;
+	ok( !char.islower( '´' ) ) ;
+	ok( !char.islower( '`' ) ) ;
+	ok( !char.islower( '^' ) ) ;
+	ok( !char.islower( '¨' ) ) ;
+	ok( !char.islower( '[' ) ) ;
+	ok( !char.islower( '$' ) ) ;
+	ok( !char.islower( ']' ) ) ;
+	ok( !char.islower( '*' ) ) ;
+	ok( !char.islower( '-' ) ) ;
+	ok( !char.islower( '_' ) ) ;
+	ok( !char.islower( '@' ) ) ;
+
+} ) ;
