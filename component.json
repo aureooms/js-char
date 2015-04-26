@@ -1,0 +1,11 @@
+{
+	"version": "0.0.0",
+	"repo": "aureooms/js-char",
+	"scripts": [
+		"js/dist/char.js"
+	],
+	"description": "character code bricks for JavaScript",
+	"name": "aureooms-js-char",
+	"license": "AGPL-3.0",
+	"main": "js/dist/char.js"
+}

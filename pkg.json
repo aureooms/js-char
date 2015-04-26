@@ -1,0 +1,17 @@
+{
+	"out": "js/dist/",
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"char.js"
+		]
+	},
+	"debug": false,
+	"src": "js/src/",
+	"name": "char"
+}
