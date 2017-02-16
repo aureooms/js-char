@@ -2,7 +2,7 @@
 	"version": "1.0.0",
 	"homepage": "http://aureooms.github.io/js-char/",
 	"description": "character code bricks for JavaScript",
-	"name": "aureooms-js-char",
+	"name": "@aureooms/js-char",
 	"main": "js/dist/char.js",
 	"license": "AGPL-3.0",
 	"dependencies": {},
