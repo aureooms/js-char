@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"homepage": "http://aureooms.github.io/js-char/",
+	"homepage": "http://make-github-pseudonymous-again.github.io/js-char/",
 	"description": "character code bricks for JavaScript",
 	"name": "@aureooms/js-char",
 	"main": "js/dist/char.js",

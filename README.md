@@ -1,4 +1,4 @@
-[js-char](http://aureooms.github.io/js-char)
+[js-char](http://make-github-pseudonymous-again.github.io/js-char)
 ==
 
 character code bricks for JavaScript
